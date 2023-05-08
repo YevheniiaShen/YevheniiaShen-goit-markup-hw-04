@@ -196,6 +196,16 @@ img {
   letter-spacing: 0.02em;
 
 }
+
+.sc-tw-cards{
+  display: flex;
+  background-color: #F4F4FD;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
 .section-three{
   padding-bottom: 120px;
 }
