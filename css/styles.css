@@ -352,17 +352,9 @@ background-color: var(--ocean-color);
 .customers-link:hover,
 .customers-link:focus{
   border: 1px solid #404BBF;
-  fill: #404BBF;
+  color: #404BBF;
 }
 
-.customers-icon{
-  fill: currentColor;
-}  
-
-/* .customers-icon:hover,
-.customers-icon:focus{
-  fill: var(--ocean-color);
-} */
 .foot{
   background-color:var(--navy-blye-color);
   padding-top: 100px;
