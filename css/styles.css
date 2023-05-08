@@ -264,6 +264,8 @@ img {
   margin-bottom: 8px;
 }
 
+
+
 .socials{
   display: flex;
   justify-content: center;
@@ -286,6 +288,44 @@ border-radius: 50%;
 {
 background-color: var(--ocean-color);
 }
+
+.section-customers{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.customers-icons{
+  padding: 0;
+}
+.customers-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  gap: 24px;
+}
+.customers-link{
+  display: flex;
+ border: 1px solid #8E8F99;
+ border-radius: 4px;
+ width: 168px;
+ height: 88px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 72px;
+ color: #8E8F99;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+  border: 1px solid #404BBF;
+  color: #404BBF;
+}
+
+.customers-icon{
+  fill: currentColor;
+}
+
 .foot{
   background-color:var(--navy-blye-color);
   padding-top: 100px;
