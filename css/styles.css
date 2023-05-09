@@ -346,17 +346,19 @@ background-color: var(--ocean-color);
 .customers-icon{
   fill: currentColor;
 }
-.customers-item{
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-}
-
 
 .customers-link:hover,
 .customers-link:focus{
   border: 1px solid #404BBF;
   color: #404BBF;
 }
+.customers-item{
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+}
+
+
+
 
 .foot{
   background-color:var(--navy-blye-color);
